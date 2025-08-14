@@ -154,7 +154,7 @@ export default function Home() {
   data-scroll-index="1"
   className="background bg-img bg-fixed section-padding"
   data-overlay-dark="5"
-  data-background="img/maxresdefault.jpg"
+  data-background="/img/maxresdefault.jpg"
 >
   <div className="container">
     <div className="row">
@@ -173,7 +173,7 @@ export default function Home() {
     <div className="row gallery-items">
       <div className="col-lg-4 col-md-6 single-item luxurycars mb-15">
         <a
-          href="img/filda/1.webp"
+          href="/img/filda/1.webp"
           title=""
           className="gallery-masonry-item-img-link img-zoom"
         >
@@ -193,7 +193,7 @@ export default function Home() {
 
       <div className="col-lg-4 col-md-6 single-item sportcars mb-15">
         <a
-          href="img/filda/2.webp"
+          href="/img/filda/2.webp"
           title=""
           className="gallery-masonry-item-img-link img-zoom"
         >
@@ -213,7 +213,7 @@ export default function Home() {
 
       <div className="col-lg-4 col-md-6 single-item sportcars mb-15">
         <a
-          href="img/filda/3.webp"
+          href="/img/filda/3.webp"
           title=""
           className="gallery-masonry-item-img-link img-zoom"
         >
@@ -233,7 +233,7 @@ export default function Home() {
 
       <div className="col-lg-4 col-md-6 single-item suv mb-15">
         <a
-          href="img/filda/4.webp"
+          href="/img/filda/4.webp"
           title=""
           className="gallery-masonry-item-img-link img-zoom"
         >
@@ -253,7 +253,7 @@ export default function Home() {
 
       <div className="col-lg-4 col-md-6 single-item suv mb-15">
         <a
-          href="img/filda/5.webp"
+          href="/img/filda/5.webp"
           title=""
           className="gallery-masonry-item-img-link img-zoom"
         >
@@ -273,7 +273,7 @@ export default function Home() {
 
       <div className="col-lg-4 col-md-6 single-item suv mb-15">
         <a
-          href="img/filda/6.webp"
+          href="/img/filda/6.webp"
           title=""
           className="gallery-masonry-item-img-link img-zoom"
         >
@@ -293,7 +293,7 @@ export default function Home() {
 
       <div className="col-lg-4 col-md-6 single-item suv mb-15">
         <a
-          href="img/filda/7.webp"
+          href="/img/filda/7.webp"
           title=""
           className="gallery-masonry-item-img-link img-zoom"
         >
@@ -313,7 +313,7 @@ export default function Home() {
 
       <div className="col-lg-4 col-md-6 single-item suv mb-15">
         <a
-          href="img/filda/8.webp"
+          href="/img/filda/8.webp"
           title=""
           className="gallery-masonry-item-img-link img-zoom"
         >
@@ -333,7 +333,7 @@ export default function Home() {
 
       <div className="col-lg-4 col-md-6 single-item suv mb-15">
         <a
-          href="img/filda/9.webp"
+          href="/img/filda/9.webp"
           title=""
           className="gallery-masonry-item-img-link img-zoom"
         >
@@ -436,7 +436,7 @@ export default function Home() {
   data-scroll-index="1"
   className="background bg-img bg-fixed section-padding"
   data-overlay-dark="5"
-  data-background="img/slider/2.webp"
+  data-background="/img/slider/2.webp"
 >
   <div className="container">
     <div className="row">
@@ -620,7 +620,7 @@ export default function Home() {
   data-scroll-index="1"
   className="background bg-img bg-fixed section-padding"
   data-overlay-dark="5"
-  data-background="img/slider/2.webp"
+  data-background="/img/slider/2.webp"
 >
   <div className="container">
     <div className="row">
@@ -913,7 +913,7 @@ export default function Home() {
 <section
   className="lets-talk bg-img bg-fixed section-padding"
   data-overlay-dark="5"
-  data-background="img/slider/1.webp"
+  data-background="/img/slider/1.webp"
 >
   <div className="container">
     <div className="row">

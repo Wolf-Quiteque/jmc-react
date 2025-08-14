@@ -1,5 +1,6 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import Script from "next/script";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -34,7 +35,7 @@ export const metadata = {
     ],
   },
   icons: {
-    shortcut: "img/favicon1.png",
+    shortcut: "/img/favicon1.png",
   },
   alternates: {
     canonical: "https://jmcangola.com",
@@ -46,14 +47,19 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
-        <link rel="shortcut icon" href="img/favicon1.png" />
+        <link rel="shortcut icon" href="/img/favicon1.png" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&display=swap" />
     <link rel="stylesheet" href="/css/plugins.css" />  
     <link rel="stylesheet" href="/css/style.css" />
 
        </head>
       <body>
-       
+           <div className="preloader-bg"></div>
+    <div id="preloader">
+        <div id="preloader-status">
+            <div className="preloader-position loader"> <span></span> </div>
+        </div>
+    </div>
 
 <div className="mobile-buttons-container">
   <a
@@ -90,7 +96,7 @@ export default function RootLayout({ children }) {
 <nav className="navbar navbar-expand-lg">
   <div className="container">
     <div className="logo-wrapper">
-      <a className="logo" href="index.html">
+      <a className="logo" href="/">
         <img
           src="/img/logo.webp"
           className="logo-img"
@@ -129,27 +135,27 @@ export default function RootLayout({ children }) {
           </a>
           <ul className="dropdown-menu">
             <li>
-              <a href="grand-avenue.html" className="dropdown-item">
+              <a href="/grand-avenue" className="dropdown-item">
                 <span>GRAND AVENUE</span>
               </a>
             </li>
             <li>
-              <a href="vigus.html" className="dropdown-item">
+              <a href="/vigus" className="dropdown-item">
                 <span>VIGUS</span>
               </a>
             </li>
             <li>
-              <a href="touring.html" className="dropdown-item">
+              <a href="/touring" className="dropdown-item">
                 <span>TOURING</span>
               </a>
             </li>
             <li>
-              <a href="carrying.html" className="dropdown-item">
+              <a href="/carrying" className="dropdown-item">
                 <span> CARRING (refrigerador) </span>
               </a>
             </li>
             <li>
-              <a href="carryingplus.html" className="dropdown-item">
+              <a href="/carrying" className="dropdown-item">
                 <span>CARRING PLUS </span>
               </a>
             </li>
@@ -157,27 +163,27 @@ export default function RootLayout({ children }) {
         </li>
 
         <li className="nav-item">
-          <a className="nav-link" href="sobre.html">
+          <a className="nav-link" href="/sobre">
             SOBRE
           </a>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="campanha/index.html">
+          <a className="nav-link" href="campanha//">
             CAMPANHAS
           </a>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="noticias.html">
+          <a className="nav-link" href="/noticias">
             NOTÍCIAS
           </a>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="expo.html">
+          <a className="nav-link" href="/expo">
             EXPO
           </a>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="galleria.html">
+          <a className="nav-link" href="/galeria">
             GALERIA
           </a>
         </li>
@@ -195,12 +201,12 @@ export default function RootLayout({ children }) {
           </a>
           <ul className="dropdown-menu">
             <li>
-              <a href="index.html" className="dropdown-item">
+              <a href="/" className="dropdown-item">
                 <span>Português</span>
               </a>
             </li>
             <li>
-              <a href="index-en.html" className="dropdown-item">
+              <a href="#index-en" className="dropdown-item">
                 <span>English</span>
               </a>
             </li>
@@ -342,7 +348,7 @@ export default function RootLayout({ children }) {
             <h3 className="widget-title">Links Rápidos</h3>
             <ul>
               <li>
-                <a href="sobre.html">Sobre</a>
+                <a href="/sobre">Sobre</a>
               </li>
               <li>
                 <a href="#cars.html">Carros</a>
@@ -561,23 +567,28 @@ export default function RootLayout({ children }) {
   </div>
 </div>
 
-    <script src="/js/jquery-3.7.1.min.js"></script>
-    <script src="/js/jquery-migrate-3.4.1.min.js"></script>
-    <script src="/js/modernizr-2.6.2.min.js"></script>
-    <script src="/js/imagesloaded.pkgd.min.js"></script>
-    <script src="/js/jquery.isotope.v3.0.2.js"></script>
-    <script src="/js/popper.min.js"></script>
-    <script src="/js/bootstrap.min.js"></script>
-    <script src="/js/scrollIt.min.js"></script>
-    <script src="/js/jquery.waypoints.min.js"></script>
-    <script src="/js/owl.carousel.min.js"></script>
-    <script src="/js/jquery.stellar.min.js"></script>
-    <script src="/js/jquery.magnific-popup.js"></script>
-    <script src="/js/select2.js"></script>
-    <script src="/js/datepicker.js"></script>
-    <script src="/js/YouTubePopUp.js"></script>
-    <script src="/js/vegas.slider.min.js"></script>
-    <script src="/js/custom.js"></script>
+  {/* Load jQuery first */}
+        <Script src="/js/jquery-3.7.1.min.js" strategy="beforeInteractive" />
+        <Script src="/js/jquery-migrate-3.4.1.min.js" strategy="beforeInteractive" />
+        
+        {/* Then load the rest in order */}
+        <Script src="/js/popper.min.js" strategy="beforeInteractive" />
+        <Script src="/js/bootstrap.min.js" strategy="beforeInteractive" />
+
+        {/* Other plugins can be deferred */}
+        <Script src="/js/modernizr-2.6.2.min.js" strategy="afterInteractive" />
+        <Script src="/js/imagesloaded.pkgd.min.js" strategy="afterInteractive" />
+        <Script src="/js/jquery.isotope.v3.0.2.js" strategy="afterInteractive" />
+        <Script src="/js/scrollIt.min.js" strategy="afterInteractive" />
+        <Script src="/js/jquery.waypoints.min.js" strategy="afterInteractive" />
+        <Script src="/js/owl.carousel.min.js" strategy="afterInteractive" />
+        <Script src="/js/jquery.stellar.min.js" strategy="afterInteractive" />
+        <Script src="/js/jquery.magnific-popup.js" strategy="afterInteractive" />
+        <Script src="/js/select2.js" strategy="afterInteractive" />
+        <Script src="/js/datepicker.js" strategy="afterInteractive" />
+        <Script src="/js/YouTubePopUp.js" strategy="afterInteractive" />
+        <Script src="/js/vegas.slider.min.js" strategy="afterInteractive" />
+        <Script src="/js/custom.js" strategy="afterInteractive" />
       </body>
     </html>
   );
