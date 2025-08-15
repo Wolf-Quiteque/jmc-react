@@ -1115,27 +1115,368 @@ export default defineConfig({
       },
       // Collection for app/page.js file
       {
-        name: "page",
-        label: "Page",
-        path: "app/",
-        fields: [
-          {
-            type: "string",
-            name: "title",
-            label: "Title",
-            isTitle: true,
-            required: true,
-          },
-          {
-            type: "rich-text",
-            name: "body",
-            label: "Body",
-            isBody: true,
-          },
-        ],
+        name: "home",
+        label: "Home",
+        path: "content/home",
+        format: "json",
         ui: {
           router: () => "/",
         },
+        fields: [
+          {
+            type: "object",
+            name: "header",
+            label: "Header",
+            fields: [
+              {
+                type: "string",
+                name: "videoUrl",
+                label: "Video URL",
+              },
+            ],
+          },
+          {
+            type: "object",
+            name: "process",
+            label: "Process",
+            list: true,
+            fields: [
+              {
+                type: "string",
+                name: "number",
+                label: "Number",
+              },
+              {
+                type: "string",
+                name: "title",
+                label: "Title",
+              },
+              {
+                type: "string",
+                name: "text",
+                label: "Text",
+              },
+            ],
+          },
+          {
+            type: "object",
+            name: "about",
+            label: "About",
+            fields: [
+              {
+                type: "string",
+                name: "subtitle",
+                label: "Subtitle",
+              },
+              {
+                type: "string",
+                name: "title",
+                label: "Title",
+              },
+              {
+                type: "string",
+                name: "text",
+                label: "Text",
+                ui: {
+                  component: "textarea",
+                },
+              },
+              {
+                type: "string",
+                name: "features",
+                label: "Features",
+                list: true,
+              },
+              {
+                type: "string",
+                name: "link",
+                label: "Link",
+              },
+              {
+                type: "image",
+                name: "image",
+                label: "Image",
+              },
+              {
+                type: "string",
+                name: "videoLink",
+                label: "Video Link",
+              },
+            ],
+          },
+          {
+            type: "object",
+            name: "filda",
+            label: "Filda",
+            fields: [
+              {
+                type: "image",
+                name: "backgroundImage",
+                label: "Background Image",
+              },
+              {
+                type: "string",
+                name: "subtitle",
+                label: "Subtitle",
+              },
+              {
+                type: "string",
+                name: "title",
+                label: "Title",
+              },
+              {
+                type: "string",
+                name: "text",
+                label: "Text",
+                ui: {
+                  component: "textarea",
+                },
+              },
+              {
+                type: "image",
+                name: "images",
+                label: "Images",
+                list: true,
+              },
+            ],
+          },
+          {
+            type: "object",
+            name: "carFleet",
+            label: "Car Fleet",
+            fields: [
+              {
+                type: "string",
+                name: "subtitle",
+                label: "Subtitle",
+              },
+              {
+                type: "string",
+                name: "title",
+                label: "Title",
+              },
+              {
+                type: "object",
+                name: "cars",
+                label: "Cars",
+                list: true,
+                fields: [
+                  {
+                    type: "string",
+                    name: "link",
+                    label: "Link",
+                  },
+                  {
+                    type: "image",
+                    name: "image",
+                    label: "Image",
+                  },
+                  {
+                    type: "string",
+                    name: "name",
+                    label: "Name",
+                  },
+                  {
+                    type: "object",
+                    name: "features",
+                    label: "Features",
+                    list: true,
+                    fields: [
+                      {
+                        type: "string",
+                        name: "icon",
+                        label: "Icon",
+                      },
+                      {
+                        type: "string",
+                        name: "text",
+                        label: "Text",
+                      },
+                    ],
+                  },
+                ],
+              },
+              {
+                type: "string",
+                name: "catalogLink",
+                label: "Catalog Link",
+              },
+            ],
+          },
+          {
+            type: "object",
+            name: "booking",
+            label: "Booking",
+            fields: [
+              {
+                type: "image",
+                name: "backgroundImage",
+                label: "Background Image",
+              },
+              {
+                type: "string",
+                name: "subtitle",
+                label: "Subtitle",
+              },
+              {
+                type: "string",
+                name: "title",
+                label: "Title",
+              },
+              {
+                type: "string",
+                name: "text",
+                label: "Text",
+                ui: {
+                  component: "textarea",
+                },
+              },
+            ],
+          },
+          {
+            type: "object",
+            name: "truckFleet",
+            label: "Truck Fleet",
+            fields: [
+              {
+                type: "string",
+                name: "subtitle",
+                label: "Subtitle",
+              },
+              {
+                type: "string",
+                name: "title",
+                label: "Title",
+              },
+              {
+                type: "object",
+                name: "trucks",
+                label: "Trucks",
+                list: true,
+                fields: [
+                  {
+                    type: "string",
+                    name: "link",
+                    label: "Link",
+                  },
+                  {
+                    type: "image",
+                    name: "image",
+                    label: "Image",
+                  },
+                  {
+                    type: "string",
+                    name: "name",
+                    label: "Name",
+                  },
+                  {
+                    type: "object",
+                    name: "features",
+                    label: "Features",
+                    list: true,
+                    fields: [
+                      {
+                        type: "string",
+                        name: "icon",
+                        label: "Icon",
+                      },
+                      {
+                        type: "string",
+                        name: "text",
+                        label: "Text",
+                      },
+                    ],
+                  },
+                ],
+              },
+            ],
+          },
+          {
+            type: "object",
+            name: "blog",
+            label: "Blog",
+            fields: [
+              {
+                type: "string",
+                name: "subtitle",
+                label: "Subtitle",
+              },
+              {
+                type: "string",
+                name: "title",
+                label: "Title",
+              },
+              {
+                type: "object",
+                name: "posts",
+                label: "Posts",
+                list: true,
+                fields: [
+                  {
+                    type: "image",
+                    name: "image",
+                    label: "Image",
+                  },
+                  {
+                    type: "string",
+                    name: "category",
+                    label: "Category",
+                  },
+                  {
+                    type: "string",
+                    name: "title",
+                    label: "Title",
+                  },
+                  {
+                    type: "string",
+                    name: "link",
+                    label: "Link",
+                  },
+                  {
+                    type: "string",
+                    name: "date",
+                    label: "Date",
+                  },
+                ],
+              },
+            ],
+          },
+          {
+            type: "object",
+            name: "contact",
+            label: "Contact",
+            fields: [
+              {
+                type: "image",
+                name: "backgroundImage",
+                label: "Background Image",
+              },
+              {
+                type: "string",
+                name: "subtitle",
+                label: "Subtitle",
+              },
+              {
+                type: "string",
+                name: "title",
+                label: "Title",
+              },
+              {
+                type: "string",
+                name: "text",
+                label: "Text",
+                ui: {
+                  component: "textarea",
+                },
+              },
+              {
+                type: "string",
+                name: "whatsappLink",
+                label: "WhatsApp Link",
+              },
+            ],
+          },
+        ],
       },
       {
         name: "post",

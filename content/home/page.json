@@ -1,0 +1,169 @@
+{
+  "header": {
+    "videoUrl": "https://res.cloudinary.com/dtfx1jpkq/video/upload/q_auto,f_auto/JMC_Grand_Avenue___Conquer_the_Wild_pxtk30"
+  },
+  "process": [
+    {
+      "number": "1",
+      "title": "Escolha Um Carro",
+      "text": "Veja a nossa gama de carros, encontre o seu carro perfeito para os próximos anos."
+    },
+    {
+      "number": "2",
+      "title": "Entre em Contacto",
+      "text": "A nossa equipa de consultores está pronta para o ajudar com o processo de compra."
+    },
+    {
+      "number": "3",
+      "title": "Desfrute da Viatura",
+      "text": "Receba a chave e desfrute do seu carro. Garantimos a sua satisfação."
+    }
+  ],
+  "about": {
+    "subtitle": "JMC Motors Angola",
+    "title": "Muito mais que venda de veículos comerciais",
+    "text": "Somos o representante oficial da JMC em Angola, trazendo robustez, fiabilidade e economia em cada pick-up, SUV ou veículo comercial leve. A nossa missão é garantir soluções personalizadas e suporte contínuo para clientes e empresas.",
+    "features": [
+      "Pick-ups potentes e duráveis",
+      "espaçosos com garantia de fábrica",
+      "Serviço e manutenção autorizada"
+    ],
+    "link": "sobre.html",
+    "image": "/img/about.webp",
+    "videoLink": "https://www.youtube.com/watch?v=LP472BC8hT8"
+  },
+  "filda": {
+    "backgroundImage": "/img/maxresdefault.jpg",
+    "subtitle": "Visite-nos",
+    "title": "FILDA 2025 - JMC ANGOLA",
+    "text": "A experiência na FILDA foi incrível com a presença da JMC ANGOLA! Inovação, potência e estilo que marcaram o evento.",
+    "images": [
+      "/img/filda/1.webp",
+      "/img/filda/2.webp",
+      "/img/filda/3.webp",
+      "/img/filda/4.webp",
+      "/img/filda/5.webp",
+      "/img/filda/6.webp",
+      "/img/filda/7.webp",
+      "/img/filda/8.webp",
+      "/img/filda/9.webp"
+    ]
+  },
+  "carFleet": {
+    "subtitle": "Escolha o Seu Modelo",
+    "title": "Frota de Carros JMC",
+    "cars": [
+      {
+        "link": "vigus.html",
+        "image": "/img/blog/8.webp",
+        "name": "VIGUS",
+        "features": [
+          { "icon": "omfi-passengers", "text": "5 Lugares" },
+          { "icon": "omfi-transmission", "text": "Automático 6v" },
+          { "icon": "omfi-luggage", "text": "1.1T Carga" }
+        ]
+      },
+      {
+        "link": "grand-avenue.html",
+        "image": "/img/blog/6.webp",
+        "name": "GRAND AVENUE",
+        "features": [
+          { "icon": "omfi-passengers", "text": "5 Lugares" },
+          { "icon": "omfi-transmission", "text": "Automático 8v" },
+          { "icon": "fas fa-gas-pump", "text": "Diesel" }
+        ]
+      },
+      {
+        "link": "touring.html",
+        "image": "/img/car_model/Touring/touring.webp",
+        "name": "TOURING",
+        "features": [
+          { "icon": "omfi-passengers", "text": "15 Lugares" },
+          { "icon": "omfi-transmission", "text": "Manual 6v" },
+          { "icon": "omfi-luggage", "text": "580L Porta-malas" }
+        ]
+      }
+    ],
+    "catalogLink": "Catálogo JMC Português  com preços.pdf"
+  },
+  "booking": {
+    "backgroundImage": "/img/slider/2.webp",
+    "subtitle": "Visite-nos",
+    "title": "Agende a Sua Visita ao Showroom",
+    "text": "Estamos localizados na Via Expressa, junto à paragem da Mutamba, Luanda. Preencha o formulário e teremos todo o prazer em recebê-lo."
+  },
+  "truckFleet": {
+    "subtitle": "Escolha o Seu Modelo",
+    "title": "Frota de Caminhões JMC",
+    "trucks": [
+      {
+        "link": "carryingplus.html",
+        "image": "/img/car_model/CarringPlus/carringplus.webp",
+        "name": "CARRING PLUS",
+        "features": [
+          { "icon": "fas fa-snowflake", "text": "-18°C Refrigeração" },
+          { "icon": "fas fa-weight-hanging", "text": "3.5T Carga" },
+          { "icon": "omfi-transmission", "text": "Manual 5v" }
+        ]
+      },
+      {
+        "link": "carrying.html",
+        "image": "/img/car_model/Carring/carringsale.webp",
+        "name": "CARRING",
+        "features": [
+          { "icon": "omfi-passengers", "text": "2 Lugares (cabina)" },
+          { "icon": "fas fa-truck-loading", "text": "15m³ Carga" },
+          { "icon": "omfi-engine", "text": "2.4L Turbo Diesel" }
+        ]
+      }
+    ]
+  },
+  "blog": {
+    "subtitle": "Nosso Blog",
+    "title": "Últimas Notícias",
+    "posts": [
+      {
+        "image": "https://omo-oss-image.thefastimg.com/portal-saas/pg2024091816575240554/cms/image/b12510d8-5206-4e1c-86ab-bef647e4f13c.jpg_1180xaf.jpg",
+        "category": "Expansão Global",
+        "title": "JMC marca presença na Expo do Oriente Médio",
+        "link": "https://www.jmcg-global.com/news/2/",
+        "date": "09 Mai"
+      },
+      {
+        "image": "https://i.ytimg.com/vi/5YF5InQHXjI/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLAs6LZ8MFbenqaJjxYl0V03tJ1pYg",
+        "category": "Expansão Africana",
+        "title": "JMC entra no mercado do Quênia com novos modelos",
+        "link": "https://english.news.cn/africa/20250328/a9e92d192705413ebd5569f1abe4fc32/c.html",
+        "date": "28 Mar"
+      },
+      {
+        "image": "https://www.chinatrucks.org/uploadfile/2025/0424/20250424090551280.jpg",
+        "category": "Inovação Tecnológica",
+        "title": "JMC e Bosch apresentam solução de caminhão leve na Auto Shanghai",
+        "link": "https://www.chinavehicle.org/news/50781.html",
+        "date": "24 Abr"
+      },
+      {
+        "image": "https://www.chinatrucks.com/uploadfile/2024/1115/20241115043434568.jpg",
+        "category": "Mobilidade Sustentável",
+        "title": "JMC lança plataforma de veículos comerciais elétricos na Auto Guangzhou",
+        "link": "https://www.marklines.com/en/news/318036",
+        "date": "15 Nov"
+      },
+      {
+        "image": "https://www.autohebdo.fr/app/uploads/2024/03/DPPI_00124002_1102.jpg",
+        "category": "Presença no Esporte",
+        "title": "JMC participa como veículo oficial no Grande Prêmio do Bahrein",
+        "link": "https://www.chinaevs.org/news/2025/1030.html",
+        "date": "09 Mai"
+      }
+    ]
+  },
+  "contact": {
+    "backgroundImage": "/img/slider/1.webp",
+    "subtitle": "Representante em Angola",
+    "title": "Entre em contacto",
+    "text": "Paragem da Mutamba, via expresse. Para mais informações online, visite nosso site.",
+    "whatsappLink": "https://wa.me/244928283666"
+  }
+}
