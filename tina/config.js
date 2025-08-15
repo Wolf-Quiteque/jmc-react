@@ -877,49 +877,241 @@ export default defineConfig({
       {
         name: "touring",
         label: "Touring",
-        path: "app/touring",
-        fields: [
-          {
-            type: "string",
-            name: "title",
-            label: "Title",
-            isTitle: true,
-            required: true,
-          },
-          {
-            type: "rich-text",
-            name: "body",
-            label: "Body",
-            isBody: true,
-          },
-        ],
+        path: "content/touring",
+        format: "json",
         ui: {
           router: () => "/touring",
         },
+        fields: [
+          {
+            type: "string",
+            name: "name",
+            label: "Name",
+          },
+          {
+            type: "string",
+            name: "fullName",
+            label: "Full Name",
+          },
+          {
+            type: "string",
+            name: "description",
+            label: "Description",
+          },
+          {
+            type: "image",
+            name: "bannerImage",
+            label: "Banner Image",
+          },
+          {
+            type: "image",
+            name: "promoImage",
+            label: "Promo Image",
+          },
+          {
+            type: "string",
+            name: "generalInfo",
+            label: "General Info",
+            ui: {
+              component: "textarea",
+            },
+          },
+          {
+            type: "string",
+            name: "features",
+            label: "Features",
+            list: true,
+          },
+          {
+            type: "object",
+            name: "sidebarFeatures",
+            label: "Sidebar Features",
+            list: true,
+            fields: [
+              {
+                type: "string",
+                name: "icon",
+                label: "Icon",
+              },
+              {
+                type: "string",
+                name: "label",
+                label: "Label",
+              },
+              {
+                type: "string",
+                name: "value",
+                label: "Value",
+              },
+            ],
+          },
+          {
+            type: "string",
+            name: "whatsappLink",
+            label: "WhatsApp Link",
+          },
+          {
+            type: "string",
+            name: "testDriveLink",
+            label: "Test Drive Link",
+          },
+          {
+            type: "object",
+            name: "exteriorImages",
+            label: "Exterior Images",
+            list: true,
+            fields: [
+              {
+                type: "image",
+                name: "src",
+                label: "Source",
+              },
+              {
+                type: "string",
+                name: "alt",
+                label: "Alt Text",
+              },
+            ],
+          },
+          {
+            type: "object",
+            name: "interiorImages",
+            label: "Interior Images",
+            list: true,
+            fields: [
+              {
+                type: "image",
+                name: "src",
+                label: "Source",
+              },
+              {
+                type: "string",
+                name: "alt",
+                label: "Alt Text",
+              },
+            ],
+          },
+        ],
       },
       // Collection for vigus directory
       {
         name: "vigus",
         label: "Vigus",
-        path: "app/vigus",
-        fields: [
-          {
-            type: "string",
-            name: "title",
-            label: "Title",
-            isTitle: true,
-            required: true,
-          },
-          {
-            type: "rich-text",
-            name: "body",
-            label: "Body",
-            isBody: true,
-          },
-        ],
+        path: "content/vigus",
+        format: "json",
         ui: {
           router: () => "/vigus",
         },
+        fields: [
+          {
+            type: "string",
+            name: "name",
+            label: "Name",
+          },
+          {
+            type: "string",
+            name: "description",
+            label: "Description",
+          },
+          {
+            type: "image",
+            name: "bannerImage",
+            label: "Banner Image",
+          },
+          {
+            type: "string",
+            name: "generalInfo",
+            label: "General Info",
+            ui: {
+              component: "textarea",
+            },
+          },
+          {
+            type: "string",
+            name: "features",
+            label: "Features",
+            list: true,
+          },
+          {
+            type: "object",
+            name: "sidebarFeatures",
+            label: "Sidebar Features",
+            list: true,
+            fields: [
+              {
+                type: "string",
+                name: "icon",
+                label: "Icon",
+              },
+              {
+                type: "string",
+                name: "label",
+                label: "Label",
+              },
+              {
+                type: "string",
+                name: "value",
+                label: "Value",
+              },
+            ],
+          },
+          {
+            type: "string",
+            name: "whatsappLink",
+            label: "WhatsApp Link",
+          },
+          {
+            type: "string",
+            name: "testDriveLink",
+            label: "Test Drive Link",
+          },
+          {
+            type: "string",
+            name: "catalogLink",
+            label: "Catalog Link",
+          },
+          {
+            type: "object",
+            name: "exteriorImages",
+            label: "Exterior Images",
+            list: true,
+            fields: [
+              {
+                type: "image",
+                name: "src",
+                label: "Source",
+              },
+              {
+                type: "string",
+                name: "alt",
+                label: "Alt Text",
+              },
+            ],
+          },
+          {
+            type: "object",
+            name: "interiorImages",
+            label: "Interior Images",
+            list: true,
+            fields: [
+              {
+                type: "image",
+                name: "src",
+                label: "Source",
+              },
+              {
+                type: "string",
+                name: "alt",
+                label: "Alt Text",
+              },
+            ],
+          },
+          {
+            type: "image",
+            name: "promoImage",
+            label: "Promo Image",
+          },
+        ],
       },
       // Collection for app/page.js file
       {
