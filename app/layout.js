@@ -167,11 +167,11 @@ export default function RootLayout({ children }) {
             SOBRE
           </a>
         </li>
-        <li className="nav-item">
+        {/* <li className="nav-item">
           <a className="nav-link" href="campanha//">
             CAMPANHAS
           </a>
-        </li>
+        </li> */}
         <li className="nav-item">
           <a className="nav-link" href="/noticias">
             NOTÍCIAS
