@@ -2,8 +2,8 @@
   "name": "JMC Carring",
   "model": "Carring",
   "description": "Pickup Comercial com Refrigerador",
-  "bannerImage": "img/car_model/Carring/carring.webp",
-  "promoImage": "img/car_model/Carring/picture2.png",
+  "bannerImage": "/img/car_model/Carring/carring.webp",
+  "promoImage": "/img/car_model/Carring/picture2.png",
   "generalInfo": "O JMC Carring é um veículo comercial robusto e prático, projetado para transporte de carga e trabalho pesado. \n      Equipado com uma carroceria versátil e opção de refrigerador integrado, é ideal para negócios que exigem \n      refrigeração de produtos (como alimentos ou medicamentos). Com motorização econômica e chassi resistente, \n      oferece confiabilidade em estradas urbanas e rurais em Angola.",
   "features": [
     "<strong>Motor 2.2L Turbo Diesel</strong> (125HP e 285Nm) — Econômico e durável",
@@ -52,44 +52,44 @@
   "catalogLink": "catalegos/Catálogo Caminhão refrigerador.pdf",
   "exteriorImages": [
     {
-      "src": "img/car_model/Carring/exterior/1.png",
+      "src": "/img/car_model/Carring/exterior/1.png",
       "alt": "JMC Carring Exterior",
       "title": "JMC Carring - Exterior"
     },
     {
-      "src": "img/car_model/Carring/exterior/2.png",
+      "src": "/img/car_model/Carring/exterior/2.png",
       "alt": "JMC Carring Exterior",
       "title": "JMC Carring - Exterior"
     },
     {
-      "src": "img/car_model/Carring/exterior/3.png",
+      "src": "/img/car_model/Carring/exterior/3.png",
       "alt": "JMC Carring Exterior",
       "title": "JMC Carring - Exterior"
     },
     {
-      "src": "img/car_model/Carring/exterior/4.png",
+      "src": "/img/car_model/Carring/exterior/4.png",
       "alt": "JMC Carring Exterior",
       "title": "JMC Carring - Exterior"
     }
   ],
   "interiorImages": [
     {
-      "src": "img/car_model/Carring/interior/1.jpg",
+      "src": "/img/car_model/Carring/interior/1.jpg",
       "alt": "JMC Carring Interior",
       "title": "JMC Carring - Interior"
     },
     {
-      "src": "img/car_model/Carring/interior/3.jpg",
+      "src": "/img/car_model/Carring/interior/3.jpg",
       "alt": "JMC Carring Interior",
       "title": "JMC Carring - Interior"
     },
     {
-      "src": "img/car_model/Carring/interior/4.jpg",
+      "src": "/img/car_model/Carring/interior/4.jpg",
       "alt": "JMC Carring Interior",
       "title": "JMC Carring - Interior"
     },
     {
-      "src": "img/car_model/Carring/interior/2.jpg",
+      "src": "/img/car_model/Carring/interior/2.jpg",
       "alt": "JMC Carring Interior",
       "title": "JMC Carring - Interior"
     }

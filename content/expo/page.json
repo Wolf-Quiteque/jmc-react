@@ -1,6 +1,6 @@
 {
   "banner": {
-    "backgroundImage": "img/slider/11.webp",
+    "backgroundImage": "/img/slider/11.webp",
     "subtitle": "Explora",
     "title": "Máxima Versatilidade"
   },
@@ -35,7 +35,7 @@
   },
   "cars": [
     {
-      "img": "img/blog/8.webp",
+      "img": "/img/blog/8.webp",
       "title": "VIGUS",
       "features": [
         { "icon": "fas fa-horse-head", "label": "Potência", "value": "163 CV (Diesel 2.0L)" },
@@ -44,7 +44,7 @@
       ]
     },
     {
-      "img": "img/blog/6.webp",
+      "img": "/img/blog/6.webp",
       "title": "GRAND AVENUE",
       "features": [
         { "icon": "fas fa-horse-head", "label": "Potência", "value": "190 CV (Gasolina 2.0T)" },
@@ -54,7 +54,7 @@
     }
   ],
   "booking": {
-    "backgroundImage": "img/slider/2.webp",
+    "backgroundImage": "/img/slider/2.webp",
     "subtitle": "Visite-nos",
     "title": "Agende a Sua Visita ao Showroom",
     "text": "Estamos localizados na Via Expressa, junto à paragem da Mutamba, Luanda. Preencha o formulário e teremos todo o prazer em recebê-lo."

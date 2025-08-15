@@ -1,6 +1,6 @@
 {
   "banner": {
-    "backgroundImage": "img/car_model/GrandAvenue/card.jpeg",
+    "backgroundImage": "/img/car_model/GrandAvenue/card.jpeg",
     "subtitle": "Our Portfolio",
     "title": "Image Gallery"
   },
@@ -10,16 +10,16 @@
     { "filter": ".carrihos", "label": "Carrinho" }
   ],
   "galleryItems": [
-    { "src": "img/gallery/1.jpg", "category": "luxurycars" },
-    { "src": "img/gallery/2.jpg", "category": "sportcars" },
-    { "src": "img/gallery/3.jpg", "category": "sportcars" },
-    { "src": "img/gallery/4.jpg", "category": "suv" },
-    { "src": "img/gallery/5.jpg", "category": "suv" },
-    { "src": "img/gallery/6.jpg", "category": "luxurycars" },
-    { "src": "img/gallery/7.jpg", "category": "sportcars" },
-    { "src": "img/gallery/8.jpg", "category": "suv" },
-    { "src": "img/gallery/9.jpg", "category": "luxurycars" },
-    { "src": "img/car_model/CarringPlus/car.webp", "category": "luxurycars" },
-    { "src": "img/car_model/Touring/jmcc.webp", "category": "luxurycars" }
+    { "src": "/img/gallery/1.jpg", "category": "luxurycars" },
+    { "src": "/img/gallery/2.jpg", "category": "sportcars" },
+    { "src": "/img/gallery/3.jpg", "category": "sportcars" },
+    { "src": "/img/gallery/4.jpg", "category": "suv" },
+    { "src": "/img/gallery/5.jpg", "category": "suv" },
+    { "src": "/img/gallery/6.jpg", "category": "luxurycars" },
+    { "src": "/img/gallery/7.jpg", "category": "sportcars" },
+    { "src": "/img/gallery/8.jpg", "category": "suv" },
+    { "src": "/img/gallery/9.jpg", "category": "luxurycars" },
+    { "src": "/img/car_model/CarringPlus/car.webp", "category": "luxurycars" },
+    { "src": "/img/car_model/Touring/jmcc.webp", "category": "luxurycars" }
   ]
 }

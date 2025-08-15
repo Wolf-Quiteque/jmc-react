@@ -1,6 +1,6 @@
 {
   "banner": {
-    "backgroundImage": "img/car_model/GrandAvenue/1.jpg",
+    "backgroundImage": "/img/car_model/GrandAvenue/1.jpg",
     "title": "Grand Avenue"
   },
   "generalInfo": {
@@ -31,32 +31,32 @@
   "exteriorGallery": {
     "title": "Design Exterior",
     "images": [
-      { "src": "img/car_model/GrandAvenue/img_0917_0.webp", "alt": "Grand Avenue Exterior" },
-      { "src": "img/car_model/GrandAvenue/img_0922.webp", "alt": "Grand Avenue Exterior" },
-      { "src": "img/car_model/GrandAvenue/img_0944_0.webp", "alt": "Grand Avenue Exterior" },
-      { "src": "img/car_model/GrandAvenue/img_0956_0.webp", "alt": "Grand Avenue Exterior" },
-      { "src": "img/car_model/GrandAvenue/img_0969_0.webp", "alt": "Grand Avenue Exterior" },
-      { "src": "img/car_model/GrandAvenue/img_0801_0.webp", "alt": "Grand Avenue Exterior" },
-      { "src": "img/car_model/GrandAvenue/img_0864_0.webp", "alt": "Grand Avenue Exterior" },
-      { "src": "img/car_model/GrandAvenue/img_0877_0.webp", "alt": "Grand Avenue Exterior" }
+      { "src": "/img/car_model/GrandAvenue/img_0917_0.webp", "alt": "Grand Avenue Exterior" },
+      { "src": "/img/car_model/GrandAvenue/img_0922.webp", "alt": "Grand Avenue Exterior" },
+      { "src": "/img/car_model/GrandAvenue/img_0944_0.webp", "alt": "Grand Avenue Exterior" },
+      { "src": "/img/car_model/GrandAvenue/img_0956_0.webp", "alt": "Grand Avenue Exterior" },
+      { "src": "/img/car_model/GrandAvenue/img_0969_0.webp", "alt": "Grand Avenue Exterior" },
+      { "src": "/img/car_model/GrandAvenue/img_0801_0.webp", "alt": "Grand Avenue Exterior" },
+      { "src": "/img/car_model/GrandAvenue/img_0864_0.webp", "alt": "Grand Avenue Exterior" },
+      { "src": "/img/car_model/GrandAvenue/img_0877_0.webp", "alt": "Grand Avenue Exterior" }
     ]
   },
-  "promoImage": "img/car_model/GrandAvenue/card.jpeg",
+  "promoImage": "/img/car_model/GrandAvenue/card.jpeg",
   "interiorGallery": {
     "title": "Design Interior",
     "images": [
-      { "src": "img/car_model/GrandAvenue/interior/1.webp", "alt": "Grand Avenue Interior" },
-      { "src": "img/car_model/GrandAvenue/interior/2.webp", "alt": "Grand Avenue Interior" },
-      { "src": "img/car_model/GrandAvenue/interior/3.webp", "alt": "Grand Avenue Interior" },
-      { "src": "img/car_model/GrandAvenue/interior/4.webp", "alt": "Grand Avenue Interior" },
-      { "src": "img/car_model/GrandAvenue/interior/5.webp", "alt": "Grand Avenue Interior" },
-      { "src": "img/car_model/GrandAvenue/interior/6.webp", "alt": "Grand Avenue Interior" },
-      { "src": "img/car_model/GrandAvenue/interior/7.webp", "alt": "Grand Avenue Interior" },
-      { "src": "img/car_model/GrandAvenue/interior/8.webp", "alt": "Grand Avenue Interior" }
+      { "src": "/img/car_model/GrandAvenue/interior/1.webp", "alt": "Grand Avenue Interior" },
+      { "src": "/img/car_model/GrandAvenue/interior/2.webp", "alt": "Grand Avenue Interior" },
+      { "src": "/img/car_model/GrandAvenue/interior/3.webp", "alt": "Grand Avenue Interior" },
+      { "src": "/img/car_model/GrandAvenue/interior/4.webp", "alt": "Grand Avenue Interior" },
+      { "src": "/img/car_model/GrandAvenue/interior/5.webp", "alt": "Grand Avenue Interior" },
+      { "src": "/img/car_model/GrandAvenue/interior/6.webp", "alt": "Grand Avenue Interior" },
+      { "src": "/img/car_model/GrandAvenue/interior/7.webp", "alt": "Grand Avenue Interior" },
+      { "src": "/img/car_model/GrandAvenue/interior/8.webp", "alt": "Grand Avenue Interior" }
     ]
   },
   "contactSection": {
-    "backgroundImage": "img/slider/1.webp",
+    "backgroundImage": "/img/slider/1.webp",
     "subtitle": "Representante em Angola",
     "title": "Entre em contacto",
     "text": "Paragem da Mutamba, via expresse. Para mais informações online, visite nosso site.",

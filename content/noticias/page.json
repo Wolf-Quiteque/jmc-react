@@ -1,12 +1,12 @@
 {
   "banner": {
-    "backgroundImage": "img/file_000000006ff461f9a3eae14ea56fe705.png",
+    "backgroundImage": "/img/file_000000006ff461f9a3eae14ea56fe705.png",
     "subtitle": "Blog & Notícias",
     "title": "JMC NEWS"
   },
   "posts": [
     {
-      "image": "img/cars/JMC VIGUS 2021 01.jpg",
+      "image": "/img/cars/JMC VIGUS 2021 01.jpg",
       "date": "29 Dez, 2025",
       "author": "Olivia D.",
       "comments": "5 Comentários",
@@ -14,7 +14,7 @@
       "link": "post.html"
     },
     {
-      "image": "img/cars/JMC VIGUS 2021 01.jpg",
+      "image": "/img/cars/JMC VIGUS 2021 01.jpg",
       "date": "27 Dez, 2025",
       "author": "Martin C.",
       "comments": "5 Comentários",
@@ -22,7 +22,7 @@
       "link": "post.html"
     },
     {
-      "image": "img/cars/JMC VIGUS 2021 01.jpg",
+      "image": "/img/cars/JMC VIGUS 2021 01.jpg",
       "date": "25 Dez, 2025",
       "author": "Martin C.",
       "comments": "5 Comentários",
@@ -30,7 +30,7 @@
       "link": "post.html"
     },
     {
-      "image": "img/cars/JMC VIGUS 2021 01.jpg",
+      "image": "/img/cars/JMC VIGUS 2021 01.jpg",
       "date": "23 Dez, 2025",
       "author": "Arya T.",
       "comments": "5 Comentários",
@@ -38,7 +38,7 @@
       "link": "post.html"
     },
     {
-      "image": "img/cars/JMC VIGUS 2021 01.jpg",
+      "image": "/img/cars/JMC VIGUS 2021 01.jpg",
       "date": "22 Dez, 2025",
       "author": "Micheal B.",
       "comments": "5 Comentários",
@@ -46,7 +46,7 @@
       "link": "post.html"
     },
     {
-      "image": "img/cars/JMC VIGUS 2021 01.jpg",
+      "image": "/img/cars/JMC VIGUS 2021 01.jpg",
       "date": "21 Dez, 2025",
       "author": "Daniel K.",
       "comments": "5 Comentários",
@@ -55,7 +55,7 @@
     }
   ],
   "contactSection": {
-    "backgroundImage": "img/slider/1.webp",
+    "backgroundImage": "/img/slider/1.webp",
     "subtitle": "Representante em Angola",
     "title": "Entre em contacto",
     "text": "Paragem da Mutamba, via expresse. Para mais informações online, visite nosso site.",

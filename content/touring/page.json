@@ -2,8 +2,8 @@
   "name": "Touring",
   "fullName": "JMC Touring",
   "description": "SUV Familiar e Robustecido",
-  "bannerImage": "img/car_model/Touring/banner-jmc-1-jpg.webp",
-  "promoImage": "img/car_model/Touring/jmcc.webp",
+  "bannerImage": "/img/car_model/Touring/banner-jmc-1-jpg.webp",
+  "promoImage": "/img/car_model/Touring/jmcc.webp",
   "generalInfo": "A JMC Touring é um veículo utilitário esportivo (SUV) projetado para oferecer conforto, robustez e versatilidade. \n      Com um design moderno e interior espaçoso, é ideal para famílias e profissionais que buscam desempenho e capacidade \n      tanto em ambientes urbanos quanto em estradas mais desafiadoras em Angola. Equipada com tecnologia avançada e \n      sistemas de segurança, a Touring garante uma condução suave e segura.",
   "features": [
     "Motor turbo eficiente e potente",
@@ -22,19 +22,19 @@
   "whatsappLink": "https://wa.me/244928283666",
   "testDriveLink": "testdrive.html",
   "exteriorImages": [
-    { "src": "img/car_model/Touring/exterior/1.webp", "alt": "JMC Touring Exterior" },
-    { "src": "img/car_model/Touring/exterior/2.webp", "alt": "JMC Touring Exterior" },
-    { "src": "img/car_model/Touring/exterior/3.webp", "alt": "JMC Touring Exterior" },
-    { "src": "img/car_model/Touring/exterior/4.webp", "alt": "JMC Touring Exterior" }
+    { "src": "/img/car_model/Touring/exterior/1.webp", "alt": "JMC Touring Exterior" },
+    { "src": "/img/car_model/Touring/exterior/2.webp", "alt": "JMC Touring Exterior" },
+    { "src": "/img/car_model/Touring/exterior/3.webp", "alt": "JMC Touring Exterior" },
+    { "src": "/img/car_model/Touring/exterior/4.webp", "alt": "JMC Touring Exterior" }
   ],
   "interiorImages": [
-    { "src": "img/car_model/Touring/interior/1.webp", "alt": "JMC Touring Interior" },
-    { "src": "img/car_model/Touring/interior/2.webp", "alt": "JMC Touring Interior" },
-    { "src": "img/car_model/Touring/interior/3.webp", "alt": "JMC Touring Interior" },
-    { "src": "img/car_model/Touring/interior/4.webp", "alt": "JMC Touring Interior" },
-    { "src": "img/car_model/Touring/interior/5.webp", "alt": "JMC Touring Interior" },
-    { "src": "img/car_model/Touring/interior/6.webp", "alt": "JMC Touring Interior" },
-    { "src": "img/car_model/Touring/interior/7.webp", "alt": "JMC Touring Interior" },
-    { "src": "img/car_model/Touring/interior/8.webp", "alt": "JMC Touring Interior" }
+    { "src": "/img/car_model/Touring/interior/1.webp", "alt": "JMC Touring Interior" },
+    { "src": "/img/car_model/Touring/interior/2.webp", "alt": "JMC Touring Interior" },
+    { "src": "/img/car_model/Touring/interior/3.webp", "alt": "JMC Touring Interior" },
+    { "src": "/img/car_model/Touring/interior/4.webp", "alt": "JMC Touring Interior" },
+    { "src": "/img/car_model/Touring/interior/5.webp", "alt": "JMC Touring Interior" },
+    { "src": "/img/car_model/Touring/interior/6.webp", "alt": "JMC Touring Interior" },
+    { "src": "/img/car_model/Touring/interior/7.webp", "alt": "JMC Touring Interior" },
+    { "src": "/img/car_model/Touring/interior/8.webp", "alt": "JMC Touring Interior" }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "name": "Vigus",
   "description": "Pickup de alto desempenho",
-  "bannerImage": "img/car_model/Vigus/car.jpg",
+  "bannerImage": "/img/car_model/Vigus/car.jpg",
   "generalInfo": "A Vigus é uma pick-up robusta e sofisticada, ideal para uso urbano e fora de estrada. Equipada com um motor 2.0L turbo diesel potente e eficiente, oferece uma condução confortável aliada a um design moderno. Combinando desempenho, segurança e elegância, é a parceira ideal para trabalho ou lazer em qualquer estrada de Angola.",
   "features": [
     "Motorização Turbo Diesel 2.0L",
@@ -21,20 +21,20 @@
   "testDriveLink": "testdrive.html",
   "catalogLink": "catalegos/Catalogo Vigus.pdf",
   "exteriorImages": [
-    { "src": "img/car_model/Vigus/extorior/1.webp", "alt": "Vigus Exterior" },
-    { "src": "img/car_model/Vigus/extorior/2.webp", "alt": "Vigus Exterior" },
-    { "src": "img/car_model/Vigus/extorior/3.webp", "alt": "Vigus Exterior" },
-    { "src": "img/car_model/Vigus/extorior/4.webp", "alt": "Vigus Exterior" }
+    { "src": "/img/car_model/Vigus/extorior/1.webp", "alt": "Vigus Exterior" },
+    { "src": "/img/car_model/Vigus/extorior/2.webp", "alt": "Vigus Exterior" },
+    { "src": "/img/car_model/Vigus/extorior/3.webp", "alt": "Vigus Exterior" },
+    { "src": "/img/car_model/Vigus/extorior/4.webp", "alt": "Vigus Exterior" }
   ],
   "interiorImages": [
-    { "src": "img/car_model/Vigus/interior/1.webp", "alt": "Vigus Interior" },
-    { "src": "img/car_model/Vigus/interior/2.webp", "alt": "Vigus Interior" },
-    { "src": "img/car_model/Vigus/interior/3.webp", "alt": "Vigus Interior" },
-    { "src": "img/car_model/Vigus/interior/4.webp", "alt": "Vigus Interior" },
-    { "src": "img/car_model/Vigus/interior/5.webp", "alt": "Vigus Interior" },
-    { "src": "img/car_model/Vigus/interior/6.webp", "alt": "Vigus Interior" },
-    { "src": "img/car_model/Vigus/interior/7.webp", "alt": "Vigus Interior" },
-    { "src": "img/car_model/Vigus/interior/8.webp", "alt": "Vigus Interior" }
+    { "src": "/img/car_model/Vigus/interior/1.webp", "alt": "Vigus Interior" },
+    { "src": "/img/car_model/Vigus/interior/2.webp", "alt": "Vigus Interior" },
+    { "src": "/img/car_model/Vigus/interior/3.webp", "alt": "Vigus Interior" },
+    { "src": "/img/car_model/Vigus/interior/4.webp", "alt": "Vigus Interior" },
+    { "src": "/img/car_model/Vigus/interior/5.webp", "alt": "Vigus Interior" },
+    { "src": "/img/car_model/Vigus/interior/6.webp", "alt": "Vigus Interior" },
+    { "src": "/img/car_model/Vigus/interior/7.webp", "alt": "Vigus Interior" },
+    { "src": "/img/car_model/Vigus/interior/8.webp", "alt": "Vigus Interior" }
   ],
-  "promoImage": "img/car_model/Vigus/vigus.avif"
+  "promoImage": "/img/car_model/Vigus/vigus.avif"
 }
