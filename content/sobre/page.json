@@ -1,0 +1,28 @@
+{
+  "banner": {
+    "backgroundImage": "/img/slider/3.webp",
+    "subtitle": "JMC ANGOLA",
+    "title": "Sobre Nós"
+  },
+  "about": {
+    "subtitle": "JMC ANGOL",
+    "title": "Somos mais do que um representante oficial da JMC",
+    "text1": "A JMC ANGOL é o representante oficial da JMC em Angola, comprometida em oferecer soluções automotivas de excelência. Com ampla experiência no setor, garantimos veículos comerciais robustos e serviços pós-venda de alta qualidade.",
+    "text2": "Nossa missão vai além da comercialização — buscamos construir parcerias de confiança com cada cliente. Para isso, contamos com uma rede de assistência técnica autorizada, peças originais e uma equipa especializada para prestar suporte completo.",
+    "features": [
+      "Venda de veículos comerciais JMC com certificação oficial",
+      "Serviço de pós-venda e manutenção autorizada",
+      "Peças originais e suporte técnico especializado",
+      "Soluções personalizadas para a sua frota empresarial"
+    ],
+    "text3": "Na JMC ANGOL, você encontra toda a estrutura necessária para adquirir, manter e equipar veículos confiáveis que acompanham o ritmo do seu negócio em Angola.",
+    "image": "img/about3.webp"
+  },
+  "contactSection": {
+    "backgroundImage": "/img/slider/1.webp",
+    "subtitle": "Representante em Angola",
+    "title": "Entre em contacto",
+    "text": "Paragem da Mutamba, via expresse. Para mais informações online, visite nosso site.",
+    "whatsappLink": "https://wa.me/244928283666"
+  }
+}

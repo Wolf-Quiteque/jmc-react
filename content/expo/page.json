@@ -1,0 +1,62 @@
+{
+  "banner": {
+    "backgroundImage": "img/slider/11.webp",
+    "subtitle": "Explora",
+    "title": "Máxima Versatilidade"
+  },
+  "sidebar": {
+    "brands": [
+      { "id": "jmc1", "label": "JMC" },
+      { "id": "jingma1", "label": "Jingma" }
+    ],
+    "vehicleTypes": [
+      { "id": "pickup1", "label": "Pick-ups" },
+      { "id": "commercial1", "label": "Comerciais" },
+      { "id": "bus1", "label": "Autocarros" },
+      { "id": "truck1", "label": "Camiões" }
+    ],
+    "transmissions": [
+      { "id": "auto1", "label": "Automática" },
+      { "id": "manual1", "label": "Manual" }
+    ],
+    "engines": [
+      { "id": "motor1", "label": "2.0L Turbo" },
+      { "id": "motor2", "label": "2.3L Turbo" },
+      { "id": "motor3", "label": "2.5L Turbo" },
+      { "id": "motor4", "label": "2.8L Diesel" },
+      { "id": "motor5", "label": "3.0L Diesel" }
+    ],
+    "passengerCapacities": [
+      { "id": "pass1", "label": "3-5 Passageiros" },
+      { "id": "pass2", "label": "15 Passageiros" },
+      { "id": "pass3", "label": "23 Passageiros" },
+      { "id": "pass4", "label": "30 Passageiros" }
+    ]
+  },
+  "cars": [
+    {
+      "img": "img/blog/8.webp",
+      "title": "VIGUS",
+      "features": [
+        { "icon": "fas fa-horse-head", "label": "Potência", "value": "163 CV (Diesel 2.0L)" },
+        { "icon": "omfi-transmission", "label": "Transmissão", "value": "Automática 6 velocidades" },
+        { "icon": "fas fa-bolt", "label": "Torque", "value": "375 Nm @ 1.800rpm" }
+      ]
+    },
+    {
+      "img": "img/blog/6.webp",
+      "title": "GRAND AVENUE",
+      "features": [
+        { "icon": "fas fa-horse-head", "label": "Potência", "value": "190 CV (Gasolina 2.0T)" },
+        { "icon": "omfi-transmission", "label": "Transmissão", "value": "Automática 8 velocidades" },
+        { "icon": "fas fa-bolt", "label": "Torque", "value": "350 Nm @ 1.500rpm" }
+      ]
+    }
+  ],
+  "booking": {
+    "backgroundImage": "img/slider/2.webp",
+    "subtitle": "Visite-nos",
+    "title": "Agende a Sua Visita ao Showroom",
+    "text": "Estamos localizados na Via Expressa, junto à paragem da Mutamba, Luanda. Preencha o formulário e teremos todo o prazer em recebê-lo."
+  }
+}

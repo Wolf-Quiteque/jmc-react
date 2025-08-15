@@ -1,0 +1,65 @@
+{
+  "banner": {
+    "backgroundImage": "img/car_model/GrandAvenue/1.jpg",
+    "title": "Grand Avenue"
+  },
+  "generalInfo": {
+    "title": "Informações Gerais",
+    "text": "A Grand Avenue é uma pick-up robusta e sofisticada, ideal para uso urbano e fora de estrada. Equipada com um motor 2.0L turbo diesel potente e eficiente, oferece uma condução confortável aliada a um design moderno. Combinando desempenho, segurança e elegância, é a parceira ideal para trabalho ou lazer em qualquer estrada de Angola.",
+    "features": [
+      "Motorização Turbo Diesel 2.0L",
+      "Sistema de tração 4x2 / 4x4 disponível",
+      "Design robusto com interior refinado"
+    ],
+    "catalogLink": "catalegos/Catalogo Grand Avenue.pdf"
+  },
+  "sidebar": {
+    "title": "Grand Avenue",
+    "subtitle": "Pickup de alto desempenho",
+    "features": [
+      { "icon": "omfi-door", "label": "Portas", "value": "4" },
+      { "icon": "omfi-passengers", "label": "Lugares", "value": "5" },
+      { "icon": "omfi-transmission", "label": "Transmissão", "value": "Manual / Automática" },
+      { "icon": "omfi-luggage", "label": "Bagageira", "value": "Espaçosa / Carga pesada" },
+      { "icon": "omfi-condition", "label": "Ar Condicionado", "value": "Sim" },
+      { "icon": "fas fa-gas-pump", "label": "Combustível", "value": "Gasóleo (Diesel)" },
+      { "icon": "fas fa-bolt", "label": "Potência", "value": "141 hp (105kW)" }
+    ],
+    "testDriveLink": "testdrive.html",
+    "whatsappLink": "https://wa.me/244928283666"
+  },
+  "exteriorGallery": {
+    "title": "Design Exterior",
+    "images": [
+      { "src": "img/car_model/GrandAvenue/img_0917_0.webp", "alt": "Grand Avenue Exterior" },
+      { "src": "img/car_model/GrandAvenue/img_0922.webp", "alt": "Grand Avenue Exterior" },
+      { "src": "img/car_model/GrandAvenue/img_0944_0.webp", "alt": "Grand Avenue Exterior" },
+      { "src": "img/car_model/GrandAvenue/img_0956_0.webp", "alt": "Grand Avenue Exterior" },
+      { "src": "img/car_model/GrandAvenue/img_0969_0.webp", "alt": "Grand Avenue Exterior" },
+      { "src": "img/car_model/GrandAvenue/img_0801_0.webp", "alt": "Grand Avenue Exterior" },
+      { "src": "img/car_model/GrandAvenue/img_0864_0.webp", "alt": "Grand Avenue Exterior" },
+      { "src": "img/car_model/GrandAvenue/img_0877_0.webp", "alt": "Grand Avenue Exterior" }
+    ]
+  },
+  "promoImage": "img/car_model/GrandAvenue/card.jpeg",
+  "interiorGallery": {
+    "title": "Design Interior",
+    "images": [
+      { "src": "img/car_model/GrandAvenue/interior/1.webp", "alt": "Grand Avenue Interior" },
+      { "src": "img/car_model/GrandAvenue/interior/2.webp", "alt": "Grand Avenue Interior" },
+      { "src": "img/car_model/GrandAvenue/interior/3.webp", "alt": "Grand Avenue Interior" },
+      { "src": "img/car_model/GrandAvenue/interior/4.webp", "alt": "Grand Avenue Interior" },
+      { "src": "img/car_model/GrandAvenue/interior/5.webp", "alt": "Grand Avenue Interior" },
+      { "src": "img/car_model/GrandAvenue/interior/6.webp", "alt": "Grand Avenue Interior" },
+      { "src": "img/car_model/GrandAvenue/interior/7.webp", "alt": "Grand Avenue Interior" },
+      { "src": "img/car_model/GrandAvenue/interior/8.webp", "alt": "Grand Avenue Interior" }
+    ]
+  },
+  "contactSection": {
+    "backgroundImage": "img/slider/1.webp",
+    "subtitle": "Representante em Angola",
+    "title": "Entre em contacto",
+    "text": "Paragem da Mutamba, via expresse. Para mais informações online, visite nosso site.",
+    "whatsappLink": "https://wa.me/244928283666"
+  }
+}

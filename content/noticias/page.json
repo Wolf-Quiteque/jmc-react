@@ -1,0 +1,64 @@
+{
+  "banner": {
+    "backgroundImage": "img/file_000000006ff461f9a3eae14ea56fe705.png",
+    "subtitle": "Blog & Notícias",
+    "title": "JMC NEWS"
+  },
+  "posts": [
+    {
+      "image": "img/cars/JMC VIGUS 2021 01.jpg",
+      "date": "29 Dez, 2025",
+      "author": "Olivia D.",
+      "comments": "5 Comentários",
+      "title": "Documentos necessários para alugar viaturas com a JMC Angola",
+      "link": "post.html"
+    },
+    {
+      "image": "img/cars/JMC VIGUS 2021 01.jpg",
+      "date": "27 Dez, 2025",
+      "author": "Martin C.",
+      "comments": "5 Comentários",
+      "title": "Custos de aluguer de carros desportivos e executivos",
+      "link": "post.html"
+    },
+    {
+      "image": "img/cars/JMC VIGUS 2021 01.jpg",
+      "date": "25 Dez, 2025",
+      "author": "Martin C.",
+      "comments": "5 Comentários",
+      "title": "Como verificar multas de trânsito em viaturas alugadas",
+      "link": "post.html"
+    },
+    {
+      "image": "img/cars/JMC VIGUS 2021 01.jpg",
+      "date": "23 Dez, 2025",
+      "author": "Arya T.",
+      "comments": "5 Comentários",
+      "title": "Como alugar um carro no aeroporto com a JMC",
+      "link": "post.html"
+    },
+    {
+      "image": "img/cars/JMC VIGUS 2021 01.jpg",
+      "date": "22 Dez, 2025",
+      "author": "Micheal B.",
+      "comments": "5 Comentários",
+      "title": "Multas por infrações ao usar viaturas alugadas pela JMC",
+      "link": "post.html"
+    },
+    {
+      "image": "img/cars/JMC VIGUS 2021 01.jpg",
+      "date": "21 Dez, 2025",
+      "author": "Daniel K.",
+      "comments": "5 Comentários",
+      "title": "Checklist: o que verificar antes de alugar um carro",
+      "link": "post.html"
+    }
+  ],
+  "contactSection": {
+    "backgroundImage": "img/slider/1.webp",
+    "subtitle": "Representante em Angola",
+    "title": "Entre em contacto",
+    "text": "Paragem da Mutamba, via expresse. Para mais informações online, visite nosso site.",
+    "whatsappLink": "https://wa.me/244928283666"
+  }
+}

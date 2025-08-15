@@ -1,0 +1,97 @@
+{
+  "name": "JMC Carring",
+  "model": "Carring",
+  "description": "Pickup Comercial com Refrigerador",
+  "bannerImage": "img/car_model/Carring/carring.webp",
+  "promoImage": "img/car_model/Carring/picture2.png",
+  "generalInfo": "O JMC Carring é um veículo comercial robusto e prático, projetado para transporte de carga e trabalho pesado. \n      Equipado com uma carroceria versátil e opção de refrigerador integrado, é ideal para negócios que exigem \n      refrigeração de produtos (como alimentos ou medicamentos). Com motorização econômica e chassi resistente, \n      oferece confiabilidade em estradas urbanas e rurais em Angola.",
+  "features": [
+    "<strong>Motor 2.2L Turbo Diesel</strong> (125HP e 285Nm) — Econômico e durável",
+    "<strong>Carroceria com refrigerador</strong> — Temperatura controlada para carga perecível",
+    "<strong>Capacidade de carga até 1.200kg</strong> — Chassi reforçado para trabalho pesado"
+  ],
+  "sidebarFeatures": [
+    {
+      "icon": "fas fa-cogs",
+      "label": "Motor",
+      "value": "2.2L Turbo Diesel"
+    },
+    {
+      "icon": "fas fa-tachometer-alt",
+      "label": "Potência",
+      "value": "125HP"
+    },
+    {
+      "icon": "fas fa-bolt",
+      "label": "Torque",
+      "value": "285Nm"
+    },
+    {
+      "icon": "omfi-transmission",
+      "label": "Transmissão",
+      "value": "Manual (5 velocidades)"
+    },
+    {
+      "icon": "fas fa-car",
+      "label": "Tração",
+      "value": "4x2 (RWD)"
+    },
+    {
+      "icon": "fas fa-weight-hanging",
+      "label": "Carga Máx.",
+      "value": "1.200kg"
+    },
+    {
+      "icon": "fas fa-snowflake",
+      "label": "Refrigerador",
+      "value": "Sim (0°C a 10°C)"
+    }
+  ],
+  "whatsappLink": "https://wa.me/244928283666",
+  "testDriveLink": "testdrive.html",
+  "catalogLink": "catalegos/Catálogo Caminhão refrigerador.pdf",
+  "exteriorImages": [
+    {
+      "src": "img/car_model/Carring/exterior/1.png",
+      "alt": "JMC Carring Exterior",
+      "title": "JMC Carring - Exterior"
+    },
+    {
+      "src": "img/car_model/Carring/exterior/2.png",
+      "alt": "JMC Carring Exterior",
+      "title": "JMC Carring - Exterior"
+    },
+    {
+      "src": "img/car_model/Carring/exterior/3.png",
+      "alt": "JMC Carring Exterior",
+      "title": "JMC Carring - Exterior"
+    },
+    {
+      "src": "img/car_model/Carring/exterior/4.png",
+      "alt": "JMC Carring Exterior",
+      "title": "JMC Carring - Exterior"
+    }
+  ],
+  "interiorImages": [
+    {
+      "src": "img/car_model/Carring/interior/1.jpg",
+      "alt": "JMC Carring Interior",
+      "title": "JMC Carring - Interior"
+    },
+    {
+      "src": "img/car_model/Carring/interior/3.jpg",
+      "alt": "JMC Carring Interior",
+      "title": "JMC Carring - Interior"
+    },
+    {
+      "src": "img/car_model/Carring/interior/4.jpg",
+      "alt": "JMC Carring Interior",
+      "title": "JMC Carring - Interior"
+    },
+    {
+      "src": "img/car_model/Carring/interior/2.jpg",
+      "alt": "JMC Carring Interior",
+      "title": "JMC Carring - Interior"
+    }
+  ]
+}
