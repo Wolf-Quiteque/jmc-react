@@ -13,11 +13,11 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "JMC ANGOLA - Pick-ups & Carrinhos",
+  title: "JMC ANGOLA - Pick-ups & Carrinhas",
   description:
     "Representante oficial da JMC em Angola com soluções em pick-ups,  e veículos comerciais. Confiabilidade e economia garantidas.",
   openGraph: {
-    title: "JMC ANGOLA - Pick-ups & Carrinhos",
+    title: "JMC ANGOLA - Pick-ups & Carrinhas",
     description:
       "Somos o representante oficial da JMC em Angola, trazendo robustez, fiabilidade e economia em cada pick-up, SUV ou veículo comercial leve. A nossa missão é garantir soluções personalizadas e suporte contínuo para clientes e empresas.",
     url: "https://jmcangola.com",
