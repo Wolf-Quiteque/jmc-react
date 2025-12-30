@@ -4,7 +4,7 @@
   },
   "process": [
     {
-      "number": "1",
+      "number": "4",
       "title": "Escolha Um Carro",
       "text": "Veja a nossa gama de carros, encontre o seu carro perfeito para os próximos anos."
     },
@@ -58,9 +58,18 @@
         "image": "/img/blog/8.webp",
         "name": "VIGUS",
         "features": [
-          { "icon": "omfi-passengers", "text": "5 Lugares" },
-          { "icon": "omfi-transmission", "text": "Automático 6v" },
-          { "icon": "omfi-luggage", "text": "1.1T Carga" }
+          {
+            "icon": "omfi-passengers",
+            "text": "5 Lugares"
+          },
+          {
+            "icon": "omfi-transmission",
+            "text": "Automático 6v"
+          },
+          {
+            "icon": "omfi-luggage",
+            "text": "1.1T Carga"
+          }
         ]
       },
       {
@@ -68,9 +77,18 @@
         "image": "/img/blog/6.webp",
         "name": "GRAND AVENUE",
         "features": [
-          { "icon": "omfi-passengers", "text": "5 Lugares" },
-          { "icon": "omfi-transmission", "text": "Automático 8v" },
-          { "icon": "fas fa-gas-pump", "text": "Diesel" }
+          {
+            "icon": "omfi-passengers",
+            "text": "5 Lugares"
+          },
+          {
+            "icon": "omfi-transmission",
+            "text": "Automático 8v"
+          },
+          {
+            "icon": "fas fa-gas-pump",
+            "text": "Diesel"
+          }
         ]
       },
       {
@@ -78,9 +96,18 @@
         "image": "/img/car_model/Touring/touring.webp",
         "name": "TOURING",
         "features": [
-          { "icon": "omfi-passengers", "text": "15 Lugares" },
-          { "icon": "omfi-transmission", "text": "Manual 6v" },
-          { "icon": "omfi-luggage", "text": "580L Porta-malas" }
+          {
+            "icon": "omfi-passengers",
+            "text": "15 Lugares"
+          },
+          {
+            "icon": "omfi-transmission",
+            "text": "Manual 6v"
+          },
+          {
+            "icon": "omfi-luggage",
+            "text": "580L Porta-malas"
+          }
         ]
       }
     ],
@@ -101,9 +128,18 @@
         "image": "/img/car_model/CarringPlus/carringplus.webp",
         "name": "CARRING PLUS",
         "features": [
-          { "icon": "fas fa-snowflake", "text": "-18°C Refrigeração" },
-          { "icon": "fas fa-weight-hanging", "text": "3.5T Carga" },
-          { "icon": "omfi-transmission", "text": "Manual 5v" }
+          {
+            "icon": "fas fa-snowflake",
+            "text": "-18°C Refrigeração"
+          },
+          {
+            "icon": "fas fa-weight-hanging",
+            "text": "3.5T Carga"
+          },
+          {
+            "icon": "omfi-transmission",
+            "text": "Manual 5v"
+          }
         ]
       },
       {
@@ -111,9 +147,18 @@
         "image": "/img/car_model/Carring/carringsale.webp",
         "name": "CARRING",
         "features": [
-          { "icon": "omfi-passengers", "text": "2 Lugares (cabina)" },
-          { "icon": "fas fa-truck-loading", "text": "15m³ Carga" },
-          { "icon": "omfi-engine", "text": "2.4L Turbo Diesel" }
+          {
+            "icon": "omfi-passengers",
+            "text": "2 Lugares (cabina)"
+          },
+          {
+            "icon": "fas fa-truck-loading",
+            "text": "15m³ Carga"
+          },
+          {
+            "icon": "omfi-engine",
+            "text": "2.4L Turbo Diesel"
+          }
         ]
       }
     ]
