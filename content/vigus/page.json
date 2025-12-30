@@ -27,7 +27,7 @@
     {
       "icon": "omfi-luggage",
       "label": "Bagageira",
-      "value": "Espaçosa / Carga pesada"
+      "value": "Espaçosa / Carga pesada "
     },
     {
       "icon": "omfi-condition",
@@ -50,7 +50,7 @@
   "catalogLink": "catalegos/Catalogo Vigus.pdf",
   "exteriorImages": [
     {
-      "src": "/img/car_model/Vigus/extorior/1.webp",
+      "src": "/857a3994-89bd-4c6c-9a93-a82a0ce3fb9c.png_1920xaf.png",
       "alt": "Vigus Exterior"
     },
     {
