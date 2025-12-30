@@ -1,10 +1,10 @@
 {
-  "name": "Vigus ",
+  "name": "Vigus Plus",
   "description": "Pickup de alto desempenho",
   "bannerImage": "/a91f4d83-18e9-466c-b572-065f641c1ec9.jpeg",
   "generalInfo": "A Vigus é uma pick-up robusta e sofisticada, ideal para uso urbano e fora de estrada. Equipada com um motor 2.0L turbo diesel potente e eficiente, oferece uma condução confortável aliada a um design moderno. Combinando desempenho, segurança e elegância, é a parceira ideal para trabalho ou lazer em qualquer estrada de Angola.",
   "features": [
-    "Motorização Turbo Diesel 2.0L",
+    "Motorização Turbo Diesel 2.5L",
     "Sistema de tração 4x2 / 4x4 disponível",
     "Design robusto com interior refinado"
   ],
@@ -42,7 +42,7 @@
     {
       "icon": "fas fa-bolt",
       "label": "Potência",
-      "value": "141 hp (105kW)"
+      "value": "123kW"
     }
   ],
   "whatsappLink": "https://wa.me/244928283666",
