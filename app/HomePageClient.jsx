@@ -188,13 +188,22 @@ const HomePageClient = (props) => {
               <div className="owl-carousel owl-theme">
                 {pageData.carFleet.cars.map((car, index) => (
                   <div className="item" key={index}>
-                    <a href={car.link} className="img">
-                      <img src={car.image} alt={car.name} className="img-fluid" />
-                      <div className="bottom-fade"></div>
-                      <div className="arrow"><i className="ti-arrow-right"></i></div>
-                    </a>
+                    {car.link ? (
+                      <a href={car.link} className="img">
+                        <img src={car.image} alt={car.name} className="img-fluid" />
+                        <div className="bottom-fade"></div>
+                        <div className="arrow"><i className="ti-arrow-right"></i></div>
+                      </a>
+                    ) : (
+                      <div className="img">
+                        <img src={car.image} alt={car.name} className="img-fluid" />
+                        <div className="bottom-fade"></div>
+                      </div>
+                    )}
                     <div className="info">
-                      <div className="title"><a href={car.link}>{car.name}</a></div>
+                      <div className="title">
+                        {car.link ? <a href={car.link}>{car.name}</a> : car.name}
+                      </div>
                       <div className="details">
                         {car.features.map((feature, i) => (
                           <span key={i}><i className={feature.icon}></i> {feature.text}</span>
@@ -342,16 +351,23 @@ const HomePageClient = (props) => {
               <div className="owl-carousel owl-theme">
                 {pageData.truckFleet.trucks.map((truck, index) => (
                   <div className="item" key={index}>
-                    <a href={truck.link} className="img">
-                      <img src={truck.image} alt={truck.name} className="img-fluid" />
-                      <div className="bottom-fade"></div>
-                      <div className="arrow">
-                        <i className="ti-arrow-right"></i>
+                    {truck.link ? (
+                      <a href={truck.link} className="img">
+                        <img src={truck.image} alt={truck.name} className="img-fluid" />
+                        <div className="bottom-fade"></div>
+                        <div className="arrow">
+                          <i className="ti-arrow-right"></i>
+                        </div>
+                      </a>
+                    ) : (
+                      <div className="img">
+                        <img src={truck.image} alt={truck.name} className="img-fluid" />
+                        <div className="bottom-fade"></div>
                       </div>
-                    </a>
+                    )}
                     <div className="info">
                       <div className="title">
-                        <a href={truck.link}>{truck.name}</a>
+                        {truck.link ? <a href={truck.link}>{truck.name}</a> : truck.name}
                       </div>
                       <div className="details">
                         {truck.features.map((feature, i) => (
