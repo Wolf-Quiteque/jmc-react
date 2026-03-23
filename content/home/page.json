@@ -28,7 +28,7 @@
       "espaçosos com garantia de fábrica",
       "Serviço e manutenção autorizada"
     ],
-    "link": "sobre.html",
+    "link": "/sobre",
     "image": "/img/about.webp",
     "videoLink": "https://www.youtube.com/watch?v=LP472BC8hT8"
   },
@@ -54,7 +54,7 @@
     "title": "Frota de Carros JMC",
     "cars": [
       {
-        "link": "vigus.html",
+        "link": "/vigus",
         "image": "/img/blog/8.webp",
         "name": "VIGUS",
         "features": [
@@ -73,7 +73,7 @@
         ]
       },
       {
-        "link": "grand-avenue.html",
+        "link": "/grand-avenue",
         "image": "/img/blog/6.webp",
         "name": "GRAND AVENUE",
         "features": [
@@ -92,7 +92,7 @@
         ]
       },
       {
-        "link": "touring.html",
+        "link": "/touring",
         "image": "/img/car_model/Touring/touring.webp",
         "name": "TOURING",
         "features": [
@@ -124,7 +124,7 @@
     "title": "Frota de Caminhões JMC",
     "trucks": [
       {
-        "link": "carryingplus.html",
+        "link": "/carrying",
         "image": "/img/car_model/CarringPlus/carringplus.webp",
         "name": "CARRING PLUS",
         "features": [
@@ -143,7 +143,7 @@
         ]
       },
       {
-        "link": "carrying.html",
+        "link": "/carrying",
         "image": "/img/car_model/Carring/carringsale.webp",
         "name": "CARRING",
         "features": [
